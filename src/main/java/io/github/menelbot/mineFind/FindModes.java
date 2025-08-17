@@ -1,4 +1,4 @@
-package io.menelbot.github.mineFind;
+package io.github.menelbot.mineFind;
 
 public enum FindModes {
     FOUR_SIDED,

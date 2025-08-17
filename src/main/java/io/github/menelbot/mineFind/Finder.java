@@ -1,4 +1,4 @@
-package io.menelbot.github.mineFind;
+package io.github.menelbot.mineFind;
 
 import org.bukkit.Material;
 import org.bukkit.block.Block;

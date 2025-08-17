@@ -37,27 +37,27 @@ dependencies {
 ## Quick start
 
 ```java
-import io.menelbot.github.mineFind.FindModes;
-import io.menelbot.github.mineFind.Finder;
+import io.github.menelbot.mineFind.FindModes;
+import io.github.menelbot.mineFind.Finder;
 import org.bukkit.block.Block;
 
 import java.util.List;
 
 public class Demo {
-    // Find up to 128 connected blocks matching origin type (6-way), then do something.
-    public void run(Block origin) {
-        List<Block> cluster = Finder.find(
+  // Find up to 128 connected blocks matching origin type (6-way), then do something.
+  public void run(Block origin) {
+    List<Block> cluster = Finder.find(
             FindModes.SIX_SIDED,
             origin,
             b -> true,   // permission check predicate
             128          // hard cap to bound work
-        );
+    );
 
-        cluster.forEach(b -> b.getWorld().spawnParticle(
+    cluster.forEach(b -> b.getWorld().spawnParticle(
             org.bukkit.Particle.VILLAGER_HAPPY,
             b.getLocation().add(0.5, 0.5, 0.5), 1)
-        );
-    }
+    );
+  }
 }
 ```
 
