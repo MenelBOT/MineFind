@@ -30,7 +30,7 @@ dependencies {
   <groupId>com.github.MenelBOT</groupId>
   <artifactId>MineFind</artifactId>
   <version>1.0.0</version>
-  <scope>provided</scope>
+  <scope>shadow</scope>
 </dependency>
 ```
 
