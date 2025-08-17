@@ -15,20 +15,20 @@ Add the library as a dependency.
 
 ```kotlin
 dependencies {
-    implementation("com.github.MenelBOT:mineFind:1.0.0")
+    implementation("com.github.MenelBOT:MineFind:1.0.0")
 }
 ```
 
 ```groovy
 dependencies {
-    implementation 'com.github.MenelBOT:mineFind:1.0.0'
+    implementation 'com.github.MenelBOT:MineFind:1.0.0'
 }
 ```
 
 ```xml
 <dependency>
   <groupId>com.github.MenelBOT</groupId>
-  <artifactId>mineFind</artifactId>
+  <artifactId>MineFind</artifactId>
   <version>1.0.0</version>
   <scope>provided</scope>
 </dependency>
